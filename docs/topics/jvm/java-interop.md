@@ -90,7 +90,7 @@ val persons = listOf(Person("Jack", 11), Person("Sofie", 12), Person("Peter", 11
         .forEach { person -> println(person.name) }
 ```
 
-### How to enable Java synthetic property references {initial-collapse-state="collapsed"}
+### How to enable Java synthetic property references {initial-collapse-state="collapsed" collapsible="true"}
 
 To enable this feature, set the `-language-version 2.1` compiler option. In a Gradle project, you can do so 
 by adding the following to your `build.gradle(.kts)`:

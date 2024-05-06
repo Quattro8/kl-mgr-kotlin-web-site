@@ -189,7 +189,7 @@ Here is a complete list of options for Gradle tasks:
 >
 {type="warning"}
 
-#### Example of additional arguments usage via freeCompilerArgs {initial-collapse-state="collapsed"}
+#### Example of additional arguments usage via freeCompilerArgs {initial-collapse-state="collapsed" collapsible="true"}
 
 Use the attribute `freeCompilerArgs` to supply additional (including experimental) compiler arguments. You can add a single
 argument to this attribute or a list of arguments:

@@ -161,7 +161,7 @@ fun mainBackground(args: Array<String>) {
     error("CFRunLoopRun should never return")
 }
 ```
-{initial-collapse-state="collapsed"}
+{initial-collapse-state="collapsed" collapsible="true"}
 
 Then, compile the test binary with the `-e testlauncher.mainBackground` compiler flag.
 

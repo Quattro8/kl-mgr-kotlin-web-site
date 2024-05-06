@@ -263,7 +263,7 @@ combined during compilation to the `iosArm64` platform target:
 >
 {type="tip"}
 
-#### Apple device and simulator targets {initial-collapse-state="collapsed"}
+#### Apple device and simulator targets {initial-collapse-state="collapsed" collapsible="true"}
 
 When you use Kotlin Multiplatform to develop iOS mobile applications, you usually work with the `iosMain` source set.
 While you might think it's a platform-specific source set for the `ios` target, there is no single `ios` target. Most

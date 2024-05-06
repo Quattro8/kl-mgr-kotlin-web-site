@@ -191,7 +191,7 @@ tasks.withType(org.jetbrains.kotlin.gradle.tasks.KotlinJvmCompile.class).configu
 
 To avoid JVM target incompatibility, [configure a toolchain](#gradle-java-toolchains-support) or align JVM versions manually.
 
-#### What can go wrong if targets are incompatible {initial-collapse-state="collapsed"}
+#### What can go wrong if targets are incompatible {initial-collapse-state="collapsed" collapsible="true"}
 
 There are two ways of manually setting JVM targets for Kotlin and Java source sets:
 * The implicit way via [setting up a Java toolchain](#gradle-java-toolchains-support).
@@ -778,7 +778,7 @@ file:
 kotlin.stdlib.jdk.variants.version.alignment=false
 ```
 
-##### Other ways to align versions {initial-collapse-state="collapsed"}
+##### Other ways to align versions {initial-collapse-state="collapsed" collapsible="true"}
 
 * If you have issues with version alignment, you can align all versions via the Kotlin [BOM](https://docs.gradle.org/current/userguide/platforms.html#sub:bom_import). 
   Declare a platform dependency on `kotlin-bom` in your build script:

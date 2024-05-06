@@ -271,7 +271,7 @@ Now that you know the fundamentals of Kotlin control flow, it's time to learn ho
 
 ## Practice
 
-### Exercise 1 {initial-collapse-state="collapsed"}
+### Exercise 1 {initial-collapse-state="collapsed" collapsible="true"}
 
 Using a `when` expression, update the following program so that when you input the names of GameBoy buttons, the actions
 are printed to output. 
@@ -314,7 +314,7 @@ fun main() {
 ```
 {initial-collapse-state="collapsed" collapsed-title="Example solution" id="kotlin-tour-control-flow-solution-1"}
 
-### Exercise 2 {initial-collapse-state="collapsed"}
+### Exercise 2 {initial-collapse-state="collapsed" collapsible="true"}
 
 You have a program that counts pizza slices until there’s a whole pizza with 8 slices. Refactor this program in two ways:
 * Use a `while` loop.
@@ -375,7 +375,7 @@ fun main() {
 ```
 {initial-collapse-state="collapsed" collapsed-title="Example solution 2" id="kotlin-tour-control-flow-exercise-2-solution-2"}
 
-### Exercise 3 {initial-collapse-state="collapsed"}
+### Exercise 3 {initial-collapse-state="collapsed" collapsible="true"}
 
 Write a program that simulates the [Fizz buzz](https://en.wikipedia.org/wiki/Fizz_buzz) game. Your task is to print 
 numbers from 1 to 100 incrementally, replacing any number divisible by three with the word "fizz", and any number 
@@ -413,7 +413,7 @@ fun main() {
 ```
 {initial-collapse-state="collapsed" collapsed-title="Example solution" id="kotlin-tour-control-flow-solution-3"}
 
-### Exercise 4 {initial-collapse-state="collapsed"}
+### Exercise 4 {initial-collapse-state="collapsed" collapsible="true"}
 
 You have a list of words. Use `for` and `if` to print only the words that start with the letter `l`.
 

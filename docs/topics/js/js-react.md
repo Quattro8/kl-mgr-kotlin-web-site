@@ -1261,7 +1261,7 @@ If the deployment is successful, you will see the URL people can use to reach th
 
 ## What's next
 
-### Add more features {initial-collapse-state="collapsed"}
+### Add more features {initial-collapse-state="collapsed" collapsible="true"}
 
 You can use the resulting app as a jumping-off point to explore more advanced topics in the realm of React, Kotlin/JS, and more.
 
@@ -1273,22 +1273,22 @@ You can use the resulting app as a jumping-off point to explore more advanced to
 * **Complex APIs**. Lots of datasets and APIs are available. You can pull all sorts of data into your application. For example,
   you can build a visualizer for [cat photos](https://thecatapi.com/) or a [royalty-free stock photo API](https://unsplash.com/developers).
 
-### Improve the style: responsiveness and grids {initial-collapse-state="collapsed"}
+### Improve the style: responsiveness and grids {initial-collapse-state="collapsed" collapsible="true"}
 
 The application design is still very simple and won't look great on mobile devices or in narrow windows. Explore
 more of the CSS DSL to make the app more accessible.
 
-### Join the community and get help {initial-collapse-state="collapsed"}
+### Join the community and get help {initial-collapse-state="collapsed" collapsible="true"}
 
 The best way to report problems and get help is the [kotlin-wrappers issue tracker](https://github.com/JetBrains/kotlin-wrappers/issues).
 If you can't find a ticket for your issue, feel free to file a new one. You can also join the official [Kotlin Slack](https://surveys.jetbrains.com/s3/kotlin-slack-sign-up).
 There are channels for `#javascript` and `#react`.
 
-### Learn more about coroutines {initial-collapse-state="collapsed"}
+### Learn more about coroutines {initial-collapse-state="collapsed" collapsible="true"}
 
 If you're interested in finding out more about how you can write concurrent code, check out the tutorial on [coroutines](coroutines-and-channels.md).
 
-### Learn more about React {initial-collapse-state="collapsed"}
+### Learn more about React {initial-collapse-state="collapsed" collapsible="true"}
 
 Now that you know the basic React concepts and how they translate to Kotlin, you can convert some other concepts outlined
 in [React's documentation](https://react.dev/learn) into Kotlin.

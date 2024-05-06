@@ -38,7 +38,7 @@ To get started, first download and install the latest version of [IntelliJ IDEA]
 
 You have successfully created a project with Gradle.
 
-#### Specify a Gradle version for your project {initial-collapse-state="collapsed"}
+#### Specify a Gradle version for your project {initial-collapse-state="collapsed" collapsible="true"}
 
 You can explicitly specify a Gradle version for your project under the **Advanced Settings** section, either by using the Gradle Wrapper or a local installation of Gradle:
 * **Gradle Wrapper:** From the **Gradle distribution** list,  select **Wrapper**. Deselect the **Auto-select** checkbox, and from the **Gradle version** list, select your Gradle version.

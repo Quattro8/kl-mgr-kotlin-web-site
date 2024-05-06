@@ -222,7 +222,7 @@ an error message in the log.
 
 ## Possible issues and solutions
 
-### CocoaPods installation {initial-collapse-state="collapsed"}
+### CocoaPods installation {initial-collapse-state="collapsed" collapsible="true"}
 
 #### Ruby installation
 
@@ -240,7 +240,7 @@ install the [`cocoapods-generate`](https://github.com/square/cocoapods-generate#
 However, `cocoapods-generate` is not compatible with Ruby 3.0.0 or later. In this case, downgrade Ruby or upgrade Kotlin
 to 1.7.0 or later.
 
-### Module not found {initial-collapse-state="collapsed"}
+### Module not found {initial-collapse-state="collapsed" collapsible="true"}
 
 You may encounter a `module 'SomeSDK' not found` error that is connected with the [C-interop](native-c-interop.md) issue.
 Try these workarounds to avoid this error:
@@ -271,7 +271,7 @@ pod("NearbyMessages") {
 Check the [CocoaPods documentation](https://guides.cocoapods.org/) for more information. If nothing works, and you still
 encounter this error, report an issue in [YouTrack](https://youtrack.jetbrains.com/newissue?project=kt).
 
-### Rsync error {initial-collapse-state="collapsed"}
+### Rsync error {initial-collapse-state="collapsed" collapsible="true"}
 
 You might encounter the `rsync error: some files could not be transferred` error. It's a [known issue](https://github.com/CocoaPods/CocoaPods/issues/11946)
 that occurs if the application target in Xcode has sandboxing of the user scripts enabled.

@@ -793,7 +793,7 @@ You can find the complete scheme for the default target hierarchy in the [docume
 >
 {type="note"}
 
-#### Why replace shortcuts {initial-collapse-state="collapsed"}
+#### Why replace shortcuts {initial-collapse-state="collapsed" collapsible="true"}
 
 Creating source sets hierarchies can be verbose, error-prone, and unfriendly for beginners. Our previous solution was to
 introduce shortcuts like `ios` that create a part of the hierarchy for you. However, working with shortcuts proved they
@@ -1016,7 +1016,7 @@ Gradle property to the `gradle.properties` file:
 kotlin.compiler.preciseCompilationResultsBackup=true
 ```
 
-#### Example of precise backup usage in JetBrains {initial-collapse-state="collapsed"}
+#### Example of precise backup usage in JetBrains {initial-collapse-state="collapsed" collapsible="true"}
 
 In the following charts, you can see examples of using precise backup compared to full backup:
 
@@ -1042,7 +1042,7 @@ different results. The factors affecting performance include but are not limited
 * Which modules are affected by the changes and how big these modules are.
 * Whether the changes are ABI or non-ABI.
 
-#### Evaluating optimizations with build reports {initial-collapse-state="collapsed"}
+#### Evaluating optimizations with build reports {initial-collapse-state="collapsed" collapsible="true"}
 
 To estimate the impact of the optimization on your computer for your project and your scenarios,
 you can use [Kotlin build reports](gradle-compilation-and-caches.md#build-reports).

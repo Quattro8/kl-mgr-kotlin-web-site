@@ -147,7 +147,7 @@ class MessageService(val db: MessageRepository) {
         if (isPresent) listOf(get()) else emptyList()
 }
 ```
-{initial-collapse-state="collapsed"}
+{initial-collapse-state="collapsed" collapsible="true"}
 
 ## Run the application
 

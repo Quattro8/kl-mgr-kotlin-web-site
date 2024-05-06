@@ -248,7 +248,7 @@ The last chapter of this tour is about Kotlin's [null safety](kotlin-tour-null-s
 
 ## Practice
 
-### Exercise 1 {initial-collapse-state="collapsed"}
+### Exercise 1 {initial-collapse-state="collapsed" collapsible="true"}
 
 Define a data class `Employee` with two properties: one for a name, and another for a salary. Make sure that the property
 for salary is mutable, otherwise you won’t get a salary boost at the end of the year! The main function demonstrates how
@@ -280,7 +280,7 @@ fun main() {
 ```
 {initial-collapse-state="collapsed" collapsed-title="Example solution" id="kotlin-tour-classes-solution-1"}
 
-### Exercise 2 {initial-collapse-state="collapsed"}
+### Exercise 2 {initial-collapse-state="collapsed" collapsible="true"}
 
 To test your code, you need a generator that can create random employees. Define a class with a fixed list of potential 
 names (inside the class body), and that is configured by a minimum and maximum salary (inside the class header). Once 

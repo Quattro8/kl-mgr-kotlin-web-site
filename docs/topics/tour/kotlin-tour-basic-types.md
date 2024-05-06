@@ -85,7 +85,7 @@ Now that you know how to declare basic types, it's time to learn about [collecti
 
 ## Practice
 
-### Exercise {initial-collapse-state="collapsed"}
+### Exercise {initial-collapse-state="collapsed" collapsible="true"}
 
 Explicitly declare the correct type for each variable:
 

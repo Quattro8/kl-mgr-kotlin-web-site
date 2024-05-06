@@ -99,7 +99,7 @@ explains the different Kotlin basic types and how to declare them in the [next c
 
 ## Practice
 
-### Exercise {initial-collapse-state="collapsed"}
+### Exercise {initial-collapse-state="collapsed" collapsible="true"}
 
 Complete the code to make the program print `"Mary is 20 years old"` to standard output:
 

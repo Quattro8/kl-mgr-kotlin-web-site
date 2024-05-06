@@ -149,7 +149,7 @@ For more information about null safety in Kotlin, see [Null safety](null-safety.
 
 ## Practice
 
-### Exercise {initial-collapse-state="collapsed"}
+### Exercise {initial-collapse-state="collapsed" collapsible="true"}
 
 You have the `employeeById` function that gives you access to a database of employees of a company. Unfortunately, this 
 function returns a value of the `Employee?` type, so the result can be `null`. Your goal is to write a function that 

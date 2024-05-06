@@ -391,7 +391,7 @@ that you can use in your programs.
 
 ## Practice
 
-### Exercise 1 {initial-collapse-state="collapsed"}
+### Exercise 1 {initial-collapse-state="collapsed" collapsible="true"}
 
 You have a list of “green” numbers and a list of “red” numbers. Complete the code to print how many numbers there
 are in total.
@@ -417,7 +417,7 @@ fun main() {
 ```
 {initial-collapse-state="collapsed" collapsed-title="Example solution" id="kotlin-tour-collections-solution-1"}
 
-### Exercise 2 {initial-collapse-state="collapsed"}
+### Exercise 2 {initial-collapse-state="collapsed" collapsible="true"}
 
 You have a set of protocols supported by your server. A user requests to use a particular protocol. Complete the program
 to check whether the requested protocol is supported or not (`isSupported` must be a Boolean value).
@@ -451,7 +451,7 @@ fun main() {
 ```
 {initial-collapse-state="collapsed" collapsed-title="Example solution" id="kotlin-tour-collections-solution-2"}
 
-### Exercise 3 {initial-collapse-state="collapsed"}
+### Exercise 3 {initial-collapse-state="collapsed" collapsible="true"}
 
 Define a map that relates integer numbers from 1 to 3 to their corresponding spelling. Use this map to spell the given 
 number.

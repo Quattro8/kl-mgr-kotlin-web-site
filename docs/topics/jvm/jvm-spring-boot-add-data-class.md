@@ -126,7 +126,7 @@ class MessageController {
 
 data class Message(val id: String?, val text: String)
 ```
-{initial-collapse-state="collapsed"}
+{initial-collapse-state="collapsed" collapsible="true"}
 
 ## Run the application
 
