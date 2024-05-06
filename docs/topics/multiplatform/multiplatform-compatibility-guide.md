@@ -28,7 +28,7 @@ Note that such accessors are still available in the `kotlin.targets` case, for e
 
 **What's the best practice now?**
 
-<table style="top">
+<table>
     <tr>
         <td>Before</td>
         <td>Now</td>
@@ -111,7 +111,7 @@ Configuration names for dependencies on the corresponding source set stay the sa
 
 **What's the best practice now?**
 
-<table style="top">
+<table>
     <tr>
         <td></td>
         <td>Before</td>
@@ -748,7 +748,7 @@ removed from the public API of the Kotlin Gradle plugin in future releases. This
 
 Use respective [Kotlin targets](https://kotlinlang.org/docs/multiplatform-dsl-reference.html#targets) instead, for example:
 
-<table style="top">
+<table>
     <tr>
         <td>Before</td>
         <td>Now</td>

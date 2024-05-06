@@ -163,7 +163,7 @@ fun main() {
 
 Simple table:
 
-<table style="top">
+<table>
     <tr>
         <td>Before</td>
         <td>Now</td>
@@ -200,7 +200,7 @@ kotlin {
 
 More complex table:
 
-<table style="top">
+<table>
     <tr>
         <td></td>
         <td>Before</td>
