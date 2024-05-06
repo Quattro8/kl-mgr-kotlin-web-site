@@ -85,7 +85,8 @@ call to your iOS targets description in the `shared/build.gradle.kts` file:
    
    `swift package compute-checksum Shared.xcframework.zip`
 
-4. <anchor name="upload"/> Upload the ZIP file to the file storage of your choice.
+    <anchor name="upload"/>
+4. Upload the ZIP file to the file storage of your choice.
 5. Create a `Package.swift` file with the following code:
 
    ```Swift
