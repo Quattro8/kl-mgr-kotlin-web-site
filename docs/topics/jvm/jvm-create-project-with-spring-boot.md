@@ -196,10 +196,10 @@ class MessageController {
    </def>
    <def title="@GetMapping annotation">
       <p><code>@GetMapping</code> marks the functions of the REST controller that implement the endpoints corresponding to HTTP GET calls:</p>
-      <code style="block" lang="kotlin">
+      <code-block lang="kotlin">
       @GetMapping("/")
       fun index(@RequestParam("name") name: String) = "Hello, $name!"
-      </code>
+      </code-block>
    </def>
    <def title="@RequestParam annotation">
       <p>The function parameter <code>name</code> is marked with <code>@RequestParam</code> annotation. This annotation indicates that a method parameter should be bound to a web request parameter.</p>

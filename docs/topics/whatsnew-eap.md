@@ -347,7 +347,7 @@ In Kotlin %kotlinEapVersion%, we redesigned the compilation scheme as part of th
 separation between common and platform source sets. The most noticeable change is when you use [expected and actual functions](multiplatform-expect-actual.md#expected-and-actual-functions).
 Previously, it was possible for a function call in your common code to resolve to a function in platform code. For example:
 
-<table header-style="top">
+<table style="top">
    <tr>
        <td>Common code</td>
        <td>Platform code</td>
@@ -393,7 +393,7 @@ function to the `foo()` function in common code: `common foo`
 In addition to the improved consistency of behavior across platforms, we also worked hard to fix cases where there was 
 conflicting behavior between IntelliJ IDEA or Android Studio and the compiler. For example, if you used [expected and actual classes](multiplatform-expect-actual.md#expected-and-actual-classes):
 
-<table header-style="top">
+<table style="top">
    <tr>
        <td>Common code</td>
        <td>Platform code</td>

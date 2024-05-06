@@ -395,7 +395,7 @@ It includes intermediate source sets that Kotlin automatically creates for the t
 Consider a multiplatform project that targets both Android and iPhone devices and is developed on an Apple silicon MacBook.
 Compare how this project is set up between different versions of Kotlin:
 
-<table header-style="top">
+<table style="top">
    <tr>
        <td>Kotlin 1.9.0 and earlier (a standard setup)</td>
        <td>Kotlin 1.9.20</td>
@@ -602,7 +602,7 @@ Previously, if you wanted to configure a dependency on the standard library manu
 each source set individually. From `kotlin-stdlib:1.9.20` onward, you only need to configure the dependency **once** in
 the `commonMain` root source set:
 
-<table header-style="top">
+<table style="top">
    <tr>
        <td>Standard library version 1.9.10 and earlier</td>
        <td>Standard library version 1.9.20</td>
@@ -777,7 +777,7 @@ private external fun wasiRawClockTimeGet(clockId: Int, precision: Long, resultPt
 This release delivers several quality-of-life improvements to the Kotlin/Wasm API.
 For example, you're no longer required to return a value for DOM event listeners:
 
-<table header-style="top">
+<table style="top">
    <tr>
        <td>Before 1.9.20</td>
        <td>In 1.9.20</td>

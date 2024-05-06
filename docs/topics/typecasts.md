@@ -73,7 +73,7 @@ when (x) {
 
 Smart casts can be used in the following conditions:
 
-<table header-style="none">
+<table style="none">
     <tr>
         <td>
             <code>val</code> local variables

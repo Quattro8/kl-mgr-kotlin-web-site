@@ -41,33 +41,33 @@ class MessageService(val db: JdbcTemplate) {
       <p>A class in Kotlin has a primary constructor. It can also have one or more <a href="classes.md#secondary-constructors">secondary constructors</a>.
       The <i>primary constructor</i> is a part of the class header, and it goes after the class name and optional type parameters. In our case, the constructor is <code>(val db: JdbcTemplate)</code>.</p>
       <p><code>val db: JdbcTemplate</code> is the constructor's argument:</p>
-      <code style="block" lang="kotlin">
+      <code-block lang="kotlin">
       @Service
       class MessageService(val db: JdbcTemplate)
-      </code>
+      </code-block>
   </def>
    <def title="Trailing lambda and SAM conversion">
       <p>The <code>findMessages()</code> function calls the <code>query()</code> function of the <code>JdbcTemplate</code> class. The <code>query()</code> function takes two arguments: an SQL query as a String instance, and a callback that will map one object per row:</p>
-      <code style="block" lang="sql">
+      <code-block lang="sql">
       db.query("...", RowMapper { ... } )
-      </code><br/>
+      </code-block><br/>
       <p>The <code>RowMapper</code> interface declares only one method, so it is possible to implement it via lambda expression by omitting the name of the interface. The Kotlin compiler knows the interface that the lambda expression needs to be converted to because you use it as a parameter for the function call. This is known as <a href="java-interop.md#sam-conversions">SAM conversion in Kotlin</a>:</p>
-      <code style="block" lang="sql">
+      <code-block lang="sql">
       db.query("...", { ... } )
-      </code><br/>
+      </code-block><br/>
       <p>After the SAM conversion, the query function ends up with two arguments: a String at the first position, and a lambda expression at the last position. According to the Kotlin convention, if the last parameter of a function is a function, then a lambda expression passed as the corresponding argument can be placed outside the parentheses. Such syntax is also known as <a href="lambdas.md#passing-trailing-lambdas">trailing lambda</a>:</p>
-      <code style="block" lang="sql">
+      <code-block lang="sql">
       db.query("...") { ... }
-      </code>
+      </code-block>
    </def>
    <def title="Underscore for unused lambda argument">
       <p>For a lambda with multiple parameters, you can use the underscore <code>_</code> character to replace the names of the parameters you don't use.</p>
       <p>Hence, the final syntax for query function call looks like this:</p>
-      <code style="block" lang="kotlin">
+      <code-block lang="kotlin">
       db.query("select * from messages") { response, _ ->
           Message(response.getString("id"), response.getString("text"))
       }
-      </code>
+      </code-block>
    </def>
 </deflist>
 
