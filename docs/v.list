@@ -61,4 +61,7 @@
          value="1.9.22"
          type="string"/>
 
+    <var name="lincheckVersion" value="2.29" type="string"/>
+    <var name="jctoolsVersion" value="3.3.0" type="string"/>
+
 </vars>
