@@ -20,7 +20,7 @@ Kotlin provides `if` and `when` for checking conditional expressions.
 
 > If you have to choose between `if` and `when`, we recommend using `when` as it leads to more robust and safer programs.
 > 
-{type="note"}
+{style="note"}
 
 ### If
 
@@ -93,7 +93,7 @@ fun main() {
 > Note that all branch conditions are checked sequentially until one of them is satisfied. So only the first suitable 
 > branch is executed.
 >
-{type="note"}
+{style="note"}
 
 Here is an example of using `when` as an expression. The `when` syntax is assigned immediately to a variable:
 
@@ -219,7 +219,7 @@ In the first use case (`while`):
 > The following examples use the [increment operator](operator-overloading.md#increments-and-decrements) `++` to
 > increment the value of the `cakesEaten` variable.
 >
-{type="note"}
+{style="note"}
 
 ```kotlin
 fun main() {

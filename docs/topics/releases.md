@@ -20,7 +20,7 @@ Learn more about [types of Kotlin releases and their compatibility](kotlin-evolu
 > Starting from IntelliJ IDEA 2023.3 and Android Studio Iguana (2023.2.1) Canary 15, the Kotlin plugin is automatically
 > updated. All you need to do is update the Kotlin version in your projects.
 >
-{type="note"}
+{style="note"}
 
 IntelliJ IDEA and Android Studio suggest updating to a new release once it is out. When you accept the suggestion,
 it automatically updates the Kotlin plugin to the new version. You can check the Kotlin version in **Tools** | **Kotlin**
@@ -45,7 +45,7 @@ The IDE support for the latest version of the language is available for the foll
 > Learn more about the latest Kotlin-related updates in IntelliJ IDEA in the **Kotlin** section of the
 > [What's new in IntelliJ IDEA page](https://www.jetbrains.com/idea/whatsnew/).
 > 
-{type="tip"}
+{style="tip"}
 
 ## Release details
 

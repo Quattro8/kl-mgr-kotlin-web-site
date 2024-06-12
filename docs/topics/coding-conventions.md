@@ -34,7 +34,7 @@ files in `org.example.kotlin.network.socket` should be in the `network/socket` s
 >source root as the Java source files, and follow the same directory structure: each file should be stored in the 
 >directory corresponding to each package statement.
 >
-{type="note"}
+{style="note"}
 
 ### Source file names
 
@@ -91,7 +91,7 @@ avoid clashes while retaining code readability.
 >   However, this naming scheme can help you avoid situations when a simple refactoring
 > or an addition could include a top-level function and result in the same "Duplicate JVM classes" error.
 > 
-{type="tip"}
+{style="tip"}
 
 ### Source file organization
 
@@ -252,7 +252,7 @@ if (elements != null) {
 >In Kotlin, semicolons are optional, and therefore line breaks are significant. The language design assumes 
 >Java-style braces, and you may encounter surprising behavior if you try to use a different formatting style.
 >
-{type="note"}
+{style="note"}
 
 ### Horizontal whitespace
 

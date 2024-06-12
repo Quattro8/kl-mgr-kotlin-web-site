@@ -5,7 +5,7 @@ different type.
 
 > To learn specifically about **generics** type checks and casts, for example `List<T>`, `Map<K,V>`, see [Generics type checks and casts](generics.md#generics-type-checks-and-casts).
 >
-{type="tip"}
+{style="tip"}
 
 ## is and !is operators
 
@@ -69,7 +69,7 @@ when (x) {
 
 > Note that smart casts work only when the compiler can guarantee that the variable won't change between the check and its usage.
 >
-{type="warning"}
+{style="warning"}
 
 Smart casts can be used in the following conditions:
 

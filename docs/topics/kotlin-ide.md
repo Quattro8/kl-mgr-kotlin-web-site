@@ -19,7 +19,7 @@ Read more about IntelliJ IDEA in the [official documentation](https://www.jetbra
 
 > JetBrains Fleet is currently in Public Preview, and at this stage is free to use.
 > 
-{type="note"}
+{style="note"}
 
 [JetBrains Fleet](https://www.jetbrains.com/fleet/) is a polyglot IDE and code editor that provides advanced support for Kotlin
 and a streamlined experience for Kotlin developers. You can use Fleet as a code editor to quickly make targeted edits,

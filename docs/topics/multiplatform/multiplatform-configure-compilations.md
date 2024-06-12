@@ -113,7 +113,7 @@ collection.
 > For custom compilations, you need to set up all dependencies manually. The default source set of a custom compilation 
 > does not depend on the `commonMain` and the `commonTest` source sets.
 >
-{type="note"}
+{style="note"}
 
 <tabs group="build-script">
 <tab title="Kotlin" group-key="kotlin">

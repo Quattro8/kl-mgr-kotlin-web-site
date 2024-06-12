@@ -16,7 +16,7 @@ concepts behind React may help you understand some sample code, but it is not st
 
 > You can get the final application [here](https://github.com/kotlin-hands-on/web-app-react-kotlin-js-gradle/tree/finished).
 >
-{type="note"}
+{style="note"}
 
 ## Before you start
 
@@ -128,7 +128,7 @@ rebuild and reload the page when you make changes.
 
 > You can find this state of the project on the `master` branch [here](https://github.com/kotlin-hands-on/web-app-react-kotlin-js-gradle/tree/master).
 >
-{type="note"}
+{style="note"}
 
 ## Create a web app draft
 
@@ -546,7 +546,7 @@ window like this:
 > to pass click handlers. If you want to optimize rendering performance, consider storing your functions in a variable
 > and passing them.
 >
-{type="tip"}
+{style="tip"}
 
 ### Add state to keep values
 
@@ -1249,7 +1249,7 @@ sufficient for development purposes.
 
 > If you're pushing from a non-main branch, adjust the command to push to the `main` remote, for example, `git push heroku feature-branch:main`.
 >
-{type="tip"}
+{style="tip"}
 
 If the deployment is successful, you will see the URL people can use to reach the application on the internet.
 
@@ -1257,7 +1257,7 @@ If the deployment is successful, you will see the URL people can use to reach th
 
 > You can find this state of the project on the `finished` branch [here](https://github.com/kotlin-hands-on/web-app-react-kotlin-js-gradle/tree/finished).
 >
-{type="note"}
+{style="note"}
 
 ## What's next
 

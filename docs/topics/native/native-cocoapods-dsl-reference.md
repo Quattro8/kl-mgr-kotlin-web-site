@@ -92,7 +92,7 @@ The `framework` block is nested inside `cocoapods` and configures the framework 
 
 > Note that `baseName` is a required field.
 >
-{type="note"}
+{style="note"}
 
 | **Name**           | **Description**                                                                         | 
 |--------------------|-----------------------------------------------------------------------------------------|

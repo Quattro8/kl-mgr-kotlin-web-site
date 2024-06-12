@@ -6,7 +6,7 @@ developing projects with Kotlin Multiplatform.
 > Mind the deprecation cycle of a specific change in relation to the Kotlin version you have in your projects. The current
 > Stable version of Kotlin is %kotlinVersion%.
 >
-{type="note"}
+{style="note"}
 
 ## Version compatibility
 
@@ -419,7 +419,7 @@ load on the Kotlin team. We encourage you to migrate to the `kotlin-multiplatfor
 
      > In this case, make sure that the top-level `dependencies` block comes **after** the `kotlin` block. Otherwise, you'll get an error "Configuration not found".
      >
-     {type="note"}
+     {style="note"}
 
    You can change the code in your `build.gradle.kts` file in one of the following ways:
 
@@ -631,7 +631,7 @@ the Kotlin Gradle plugin, making it easier to use and maintain the resulting bui
 > Unfortunately, we can't provide detailed migration steps for each case. If the instructions above don't work
 > for you, describe your use case in this [YouTrack issue](https://youtrack.jetbrains.com/issue/KT-59316).
 >
-{type="tip"}
+{style="tip"}
 
 **When do the changes take effect?**
 
@@ -669,7 +669,7 @@ Here's the planned deprecation cycle:
 
 > Even though the whole `targetPresets` API is deprecated, the `jvmWithJava` preset has a different deprecation timeline.
 >
-{type="note"}
+{style="note"}
 
 <anchor name="android-sourceset-layout-v1-deprecation"/>
 ## Deprecated legacy Android source set layout
@@ -845,7 +845,7 @@ and prepare this functionality for the upcoming Kotlin 2.0 release. From now on:
     > The casting to `objcnames.protocols.ForwardDeclaredProtocolProtocol` is only allowed from the corresponding real class.
     > Otherwise, you'll get an error.
     >
-    {type="note"}
+    {style="note"}
 
 **When do the changes take effect?**
 

@@ -13,4 +13,4 @@ This section describes the basic types used in Kotlin:
 
 > [Learn how to perform type checks and casts in Kotlin](typecasts.md).
 > 
-{type="tip"}
+{style="tip"}

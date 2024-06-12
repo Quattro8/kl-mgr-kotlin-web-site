@@ -24,7 +24,7 @@ publishing {
 
 > You can also publish a multiplatform library to a GitHub repository. For more information, see GitHub's documentation on [GitHub packages](https://docs.github.com/en/packages).
 >
-{type="tip"}
+{style="tip"}
 
 ## Structure of publications
 
@@ -41,7 +41,7 @@ This `kotlinMultiplatform` publication includes metadata artifacts and reference
 > The Kotlin Multiplatform plugin automatically produces the required artifact with the embedded metadata artifacts.  
 > This means you don't have to customize your build by adding an empty artifact to the root module of your library to meet the repository's requirements.
 >
-{type="note"}
+{style="note"}
 
 The `kotlinMultiplatform` publication may also need the sources and documentation artifacts if that is required by the repository. In that case, 
 add those artifacts by using [`artifact(...)`](https://docs.gradle.org/current/javadoc/org/gradle/api/publish/maven/MavenPublication.html#artifact-java.lang.Object-) 
@@ -165,7 +165,7 @@ kotlin {
 > It is not recommended that you publish variants grouped by the product flavor in case they have different dependencies, 
 > as those will be merged into one dependency list.
 >
-{type="note"}
+{style="note"}
 
 ## Disable sources publication
 

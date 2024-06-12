@@ -40,7 +40,7 @@ fun main() {
 
 > `+=`, `-=`, `*=`, `/=`, and `%=` are augmented assignment operators. For more information, see [Augmented assignments](operator-overloading.md#augmented-assignments).
 > 
-{type="tip"}
+{style="tip"}
 
 In total, Kotlin has the following basic types:
 

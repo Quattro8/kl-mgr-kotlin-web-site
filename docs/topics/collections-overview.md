@@ -32,7 +32,7 @@ of its contents.
 
 > Arrays are not a type of collection. For more information, see [Arrays](arrays.md).
 >
-{type="note"}
+{style="note"}
 
 ## Collection types
 

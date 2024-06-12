@@ -15,7 +15,7 @@ this [video](https://www.youtube.com/watch?v=F8jj7e-_jFA) by Sebastian Aigner, K
 
 > All of the examples below use Java and Kotlin standard library APIs only.
 >
-{type="note"}
+{style="note"}
 
 ## Operations that are the same in Java and Kotlin
 
@@ -697,7 +697,7 @@ fun main() {
 > If collections have different sizes, the result of `zip()` is the smaller size. The last elements of 
 the larger collection are not included in the result.
 >
-{type="note"}
+{style="note"}
 
 ### Associate elements
 

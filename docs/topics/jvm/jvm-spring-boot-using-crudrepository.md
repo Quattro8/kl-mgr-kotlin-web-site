@@ -19,7 +19,7 @@ First, you need to adjust the `Message` class for work with the `CrudRepository`
 
     > These annotations also require additional imports.
     >  
-    {type="note"}
+    {style="note"}
 
     ```kotlin
     import org.springframework.data.annotation.Id

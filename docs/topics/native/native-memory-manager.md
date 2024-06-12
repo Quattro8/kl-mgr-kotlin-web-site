@@ -53,7 +53,7 @@ build script:
 > With this option enabled, the GC doesn't collect Kotlin objects, so memory consumption will keep rising as long as the
 > program runs. Be careful not to exhaust the system memory.
 >
-{type="warning"}
+{style="warning"}
 
 ## Memory consumption
 

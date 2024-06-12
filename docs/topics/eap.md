@@ -19,7 +19,7 @@ In this channel, you can also get notifications about new EAP builds.
 >
 > Please note that we don't provide any guarantees of compatibility between EAP and final versions of the same release. 
 >
-{type="note"}
+{style="note"}
 
 If you have already installed the EAP version and want to work on projects that were created previously, 
 check [our instructions on how to configure your build to support this version](configure-build-for-eap.md). 
@@ -57,4 +57,4 @@ check [our instructions on how to configure your build to support this version](
 
 > If the Kotlin EAP plugin can't find the latest EAP build, check that you are using the latest version of [IntelliJ IDEA](https://www.jetbrains.com/help/idea/update.html) or [Android Studio](https://developer.android.com/studio/intro/update).
 >
-{type="note"}
+{style="note"}

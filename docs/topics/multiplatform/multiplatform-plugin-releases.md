@@ -18,7 +18,7 @@ You can check your Kotlin version and update it in **Settings/Preferences** | **
 >If you do not have a compatible version of Kotlin installed, the Kotlin Multiplatform Mobile plugin will be disabled. You will need to update your Kotlin 
 >version, and then enable the plugin in **Settings/Preferences** | **Plugins**.
 >
-{type="note"}
+{style="note"}
 
 ## Release details
 

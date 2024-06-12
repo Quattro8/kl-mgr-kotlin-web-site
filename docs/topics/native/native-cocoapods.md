@@ -60,7 +60,7 @@ Install the [CocoaPods dependency manager](https://cocoapods.org/) using the ins
 > This way of installation doesn't work on devices with Apple M chips. Use other tools to set up an environment to work
 > with CocoaPods.
 >
-{type="note"}
+{style="note"}
 
 You can install the CocoaPods dependency manager with the default Ruby that should be available on macOS:
 
@@ -78,7 +78,7 @@ sudo gem install cocoapods
 > However, it cannot be updated with Homebrew, and if the installed Xcodeproj doesn't support the newest Xcode version yet,
 > you'll get errors with Pod installation. If this is the case, try other tools to install CocoaPods.
 >
-{type="warning"}
+{style="warning"}
 
 1. Install [Homebrew](https://brew.sh/) in case you don't have it yet.
 
@@ -168,7 +168,7 @@ If you want to configure your project manually:
 
     > See the full syntax of Kotlin DSL in the [Kotlin Gradle plugin repository](https://github.com/JetBrains/kotlin/blob/master/libraries/tools/kotlin-gradle-plugin/src/common/kotlin/org/jetbrains/kotlin/gradle/targets/native/cocoapods/CocoapodsExtension.kt).
     >
-    {type="note"}
+    {style="note"}
     
 3. Re-import the project.
 4. Generate the [Gradle wrapper](https://docs.gradle.org/current/userguide/gradle_wrapper.html) to avoid compatibility
@@ -215,7 +215,7 @@ of specs at the beginning of your Podfile:
 
 > Re-import the project after making changes in the Podfile.
 >
-{type="note"}
+{style="note"}
 
 If you don't make these changes to the Podfile, the `podInstall` task will fail, and the CocoaPods plugin will show
 an error message in the log.

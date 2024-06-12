@@ -7,7 +7,7 @@ _[Released: %kotlinEapReleaseDate%](eap.md#build-details)_
 >
 > See the full list of changes in the [GitHub changelog](https://github.com/JetBrains/kotlin/releases/tag/v%kotlinEapVersion%).
 >
-{type="note"}
+{style="note"}
 
 The Kotlin %kotlinEapVersion% release is out! It mostly covers the stabilization of the [new Kotlin K2 compiler](#kotlin-k2-compiler), 
 which reached its Beta status for all targets since 1.9.20. In addition, there are new features in [Kotlin/Wasm](#kotlin-wasm)
@@ -55,7 +55,7 @@ If you encounter any of the problems mentioned above, you can take the following
   > If you configure language and API versions for specific tasks, these values will override the values set by the `compilerOptions` extension.
   > In this case, language and API versions should not be higher than 1.9.
   >
-  {type="note"}
+  {style="note"}
 
 * Update the Gradle version in your project to 8.3 or later.
 
@@ -149,7 +149,7 @@ fun signalCheck(signalStatus: Any) {
 > The common supertype is an **approximation** of a union type. [Union types](https://en.wikipedia.org/wiki/Union_type)
 > are not supported in Kotlin.
 >
-{type="note"}
+{style="note"}
 
 #### Inline functions
 
@@ -536,7 +536,7 @@ since [KSP2](https://android-developers.googleblog.com/2023/12/ksp2-preview-kotl
 
 > If you use any additional compiler plugins, check their documentation to see if they are compatible with K2.
 >
-{type="tip"}
+{style="tip"}
 
 ### How to enable the Kotlin K2 compiler
 
@@ -552,7 +552,7 @@ Kotlin Playground supports the %kotlinEapVersion% release. [Check it out!](https
 > The K2 Kotlin mode is in Alpha. The performance and stability of code highlighting and code completion have been significantly improved,
 > but not all IDE features are supported yet.
 >
-{type="warning"}
+{style="warning"}
 
 Starting from 2024.1, IntelliJ IDEA can use the new K2 compiler to analyze your code with its K2 Kotlin mode. To try it out,
 go to **Settings** | **Languages & Frameworks** | **Kotlin** and select the **Enable the K2-based Kotlin plugin** option.
@@ -679,14 +679,14 @@ development experience.
 
 > This change only affects production compilation. The development compilation process stays the same.
 >
-{type="note"}
+{style="note"}
 
 ### Generation of TypeScript declaration files in Kotlin/Wasm
 
 > Generating TypeScript declaration files in Kotlin/Wasm is [Experimental](components-stability.md#stability-levels-explained).
 > It may be dropped or changed at any time.
 >
-{type="warning"}
+{style="warning"}
 
 In Kotlin %kotlinEapVersion%, the Kotlin/Wasm compiler is now capable of generating TypeScript definitions from any
 `@JsExport` declarations in your Kotlin code. These definitions can be used by IDEs and JavaScript tools to provide code
@@ -739,7 +739,7 @@ This version brings the following changes:
 > The `js-plain-objects` plugin is [Experimental](components-stability.md#stability-levels-explained).
 > It may be dropped or changed at any time. The `js-plain-objects` plugin **only** supports the K2 compiler.
 >
-{type="warning"}
+{style="warning"}
 
 To make it easier to work with JavaScript APIs, in Kotlin %kotlinEapVersion%, we provide a new plugin: 
 [`js-plain-objects`](https://github.com/JetBrains/kotlin/tree/master/plugins/js-plain-objects),
@@ -873,7 +873,7 @@ This version brings the following changes:
 > This feature is [Experimental](components-stability.md#stability-levels-explained). It may be dropped or changed at any time.
 > Use it only for evaluation purposes. We would appreciate your feedback on it in [YouTrack](https://kotl.in/issue).
 >
-{type="warning"}
+{style="warning"}
 
 Prior to Kotlin %kotlinEapVersion%, configuring compiler options in a multiplatform project with Gradle was only possible
 at a low level, such as per task, compilation, or source set. To make it easier to configure compiler options more generally
@@ -1013,13 +1013,13 @@ kotlin {
 
 > `defFile` and `defFileProperty` parameters are now deprecated.
 >
-{type="warning"}
+{style="warning"}
 
 ### Visibility changes in Gradle
 
 > This change impacts only Kotlin DSL users.
 >
-{type="note"}
+{style="note"}
 
 In Kotlin %kotlinEapVersion%, we've modified the Kotlin Gradle Plugin for better control and safety in your build scripts.
 Previously, certain Kotlin DSL functions and properties intended for a specific DSL context would inadvertently leak to
@@ -1085,7 +1085,7 @@ We would appreciate your feedback on this change! Share your comments directly t
 
 > With this change, you may need to add the `.kotlin` directory to your project's `.gitignore` file.
 >
-{type="warning"}
+{style="warning"}
 
 In Kotlin 1.8.20, the Kotlin Gradle plugin started to store its data in the Gradle project cache directory: `<project-root-directory>/.gradle/kotlin`.
 However, the `.gradle` directory is reserved for Gradle only, and as a result it's not future-proof. To solve this, since

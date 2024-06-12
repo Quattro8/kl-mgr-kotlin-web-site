@@ -96,7 +96,7 @@ The complete list of available targets is the following:
 
 > A target that is not supported by the current host is ignored during building and, therefore, not published.
 >
-{type="note"}
+{style="note"}
 
 ```groovy
 kotlin {
@@ -430,7 +430,7 @@ Learn more about [compilation for Android](multiplatform-configure-compilations.
 > The `android` configuration inside `kotlin` doesn't replace the build configuration of any Android project.
 > Learn more about writing build scripts for Android projects in [Android developer documentation](https://developer.android.com/studio/build).
 >
-{type="note"}
+{style="note"}
 
 ## Source sets
 

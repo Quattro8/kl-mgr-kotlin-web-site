@@ -28,7 +28,7 @@ In Kotlin:
 
 > Functions are discussed in more detail in a couple of chapters. Until then, all examples use the `main()` function.
 > 
-{type="note"}
+{style="note"}
 
 ## Variables
 
@@ -59,14 +59,14 @@ fun main() {
 > Variables can be declared outside the `main()` function at the beginning of your program. Variables declared in this way
 > are said to be declared at **top level**.
 > 
-{type="tip"}
+{style="tip"}
 
 As `customers` is a mutable variable, its value can be reassigned after declaration.
 
 > We recommend that you declare all variables as read-only (`val`) by default. Declare mutable variables (`var`) only if 
 > necessary.
 > 
-{type="note"}
+{style="note"}
 
 ## String templates
 

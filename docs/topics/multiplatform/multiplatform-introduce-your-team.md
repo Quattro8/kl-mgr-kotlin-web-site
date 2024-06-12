@@ -46,7 +46,7 @@ Citing case studies of different companies who already use Kotlin Multiplatform 
 
 > Explore the [case studies page](https://www.jetbrains.com/help/kotlin-multiplatform-dev/case-studies.html) for inspirational references.
 > 
-{type="note"}
+{style="note"}
 
 ## Offer proof by creating a sample project
 

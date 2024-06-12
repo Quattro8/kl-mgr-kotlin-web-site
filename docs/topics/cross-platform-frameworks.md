@@ -71,7 +71,7 @@ Even though this cross-platform mobile development framework is one of the young
 
 > Create your first cross-platform mobile app with [Kotlin Multiplatform](https://www.jetbrains.com/help/kotlin-multiplatform-dev/multiplatform-getting-started.html).
 >
-{type="note"}
+{style="note"}
 
 ### Ionic
 
@@ -141,7 +141,7 @@ Depending on how crucial the user interface is for your future app, you may need
 
 > [Get Started with Compose Multiplatform](https://www.jetbrains.com/help/kotlin-multiplatform-dev/compose-multiplatform-getting-started.html)
 >
-{type="note"}
+{style="note"}
 
 #### 4. Framework maturity
 

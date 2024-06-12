@@ -42,7 +42,7 @@ to maintain.
 > The following example assumes that the shared code of your Kotlin Multiplatform project is stored in the `shared` module.
 > If your project is structured differently, substitute "shared" in code and path examples with your module's name.  
 >
-{type="tip"}
+{style="tip"}
 
 To provide a Swift package:
 1. Set up the publishing of an [XCFramework](multiplatform-build-native-binaries.md#build-xcframeworks). Add the `XCFramework`
@@ -141,7 +141,7 @@ umbrella module. Then, build and export the XCFramework of this umbrella module.
 
 > The name `umbrella` is reserved in Apple development. Don't use it for the module you are exporting.
 > 
-{type="note"}
+{style="note"}
 
 For example, you have a `network` and a `database` module, which you combine in an `together` module:
 

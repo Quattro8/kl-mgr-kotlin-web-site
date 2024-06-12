@@ -7,7 +7,7 @@ Every Kotlin release ships with a standalone version of the compiler. You can do
 >They provide full Kotlin support out of the box without needing additional components. Learn how to 
 [get started with Kotlin in an IDE](getting-started.md).
 > 
-{type="note"}
+{style="note"}
 
 ## Install the compiler
 
@@ -21,7 +21,7 @@ The `bin` directory contains the scripts needed to compile and run Kotlin on Win
 
 > For Windows users who want to use the command-line compiler, we recommend using the manual installation method.
 > 
-{type="note"}
+{style="note"}
 
 ### SDKMAN!
 

@@ -134,7 +134,7 @@ printAllValues<RGB>() // prints RED, GREEN, BLUE
 
 > For more information about inline functions and reified type parameters, see [Inline functions](inline-functions.md).
 >
-> {type="tip"}
+> {style="tip"}
  
 In Kotlin 1.9.20, the `enumEntries<T>()` function is introduced as a future replacement for the [`enumValues<T>()`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/enum-values.html)
 function.
@@ -160,4 +160,4 @@ printAllValues<RGB>()
 > The `enumEntries<T>()` function is Experimental. To use it, opt in with `@OptIn(ExperimentalStdlibApi)`, and
 > [set the language version to at least 1.9](gradle-compiler-options.md#attributes-common-to-jvm-and-js).
 >
-{type="warning"}
+{style="warning"}

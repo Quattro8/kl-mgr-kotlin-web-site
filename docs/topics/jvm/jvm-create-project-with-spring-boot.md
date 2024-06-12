@@ -14,7 +14,7 @@ Download and install the latest version of [IntelliJ IDEA Ultimate Edition](http
 
 > If you use IntelliJ IDEA Community Edition or another IDE, you can generate a Spring Boot project using a [web-based project generator](https://start.spring.io).
 > 
-{type="note"}
+{style="note"}
 
 ## Create a Spring Boot project
 
@@ -22,7 +22,7 @@ Create a new Spring Boot project with Kotlin by using the Project Wizard in Inte
 
 > You can also create a new project using [IntelliJ IDEA with the Spring Boot plugin](https://www.jetbrains.com/help/idea/spring-boot.html).
 >
-{type="note"}
+{style="note"}
 
 1. In IntelliJ IDEA, select **File** | **New** | **Project**. 
 2. In the panel on the left, select **New Project** | **Spring Initializr**.
@@ -35,7 +35,7 @@ Create a new Spring Boot project with Kotlin by using the Project Wizard in Inte
      
      > This tutorial uses **Amazon Corretto version 18**.
      >
-     {type="note"}
+     {style="note"}
    
    * **Java**: 17
 
@@ -55,7 +55,7 @@ Create a new Spring Boot project with Kotlin by using the Project Wizard in Inte
 
    > The IDE will generate and open a new project. It may take some time to download and import the project dependencies.
    >
-   {type="tip"} 
+   {style="tip"} 
 
 7. After this, you can observe the following structure in the **Project view**:
 
@@ -228,7 +228,7 @@ class MessageController {
 > import org.springframework.web.bind.annotation.RestController
 > ```
 >
-{type="note"}
+{style="note"}
 
 Here is a complete code of the `DemoApplication.kt`:
 
@@ -266,7 +266,7 @@ The Spring application is now ready to run:
     
     > You can also run the `./gradlew bootRun` command in the terminal.
     >
-    {type="tip"}
+    {style="tip"}
 
     This starts the local server on your computer.
 

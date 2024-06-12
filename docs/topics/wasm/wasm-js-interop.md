@@ -9,7 +9,7 @@ there are key differences to consider.
 > Kotlin/Wasm is [Alpha](components-stability.md). It may be changed at any time. Use it in scenarios before production. 
 > We would appreciate your feedback in [YouTrack](https://youtrack.jetbrains.com/issue/KT-56492).
 >
-{type="note"}
+{style="note"}
 
 ## Use JavaScript code in Kotlin
 
@@ -186,7 +186,7 @@ If there are JavaScript syntax errors, they are reported when you run your JavaS
 
 > The `@JsFun` annotation has similar functionality and will likely be deprecated.
 >
-{type="note"}
+{style="note"}
 
 ### JavaScript modules
 
@@ -382,4 +382,4 @@ Although Kotlin/Wasm interoperability shares similarities with Kotlin/JS interop
 > }
 > ```
 >
-{type="note"}
+{style="note"}

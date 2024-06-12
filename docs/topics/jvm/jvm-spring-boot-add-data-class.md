@@ -94,7 +94,7 @@ The response from `MessageController` will now be a JSON document containing a c
 > As you [specified the `spring-boot-starter-web` dependency in the `build.gradle.kts` file](jvm-create-project-with-spring-boot.md#explore-the-project-gradle-build-file), you received Jackson as a _transitive_ dependency.
 > Hence, the application responds with a JSON document if the endpoint returns a data structure that can be serialized to JSON.
 >
-{type="note"}
+{style="note"}
 
 Here is a complete code of the `DemoApplication.kt`:
 

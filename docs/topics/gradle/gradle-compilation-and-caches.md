@@ -29,7 +29,7 @@ Note: Any build with incremental compilation disabled invalidates incremental ca
 > Sometimes problems with incremental compilation become visible several rounds after the failure occurs. Use [build reports](#build-reports)
 > to track the history of changes and compilations. This can help you to provide reproducible bug reports.
 >
-{type="tip"}
+{style="tip"}
 
 ### A new approach to incremental compilation
 
@@ -57,7 +57,7 @@ Learn how the new approach to incremental compilation is implemented under the h
 > Precise backup of compilation tasks' outputs is [Experimental](components-stability.md#stability-levels-explained).
 > We would appreciate your feedback on it in [YouTrack](https://kotl.in/issue/experimental-ic-optimizations).
 >
-{type="warning"}
+{style="warning"}
 
 Starting with Kotlin 1.8.20, you can enable precise backup, whereby only those classes that Kotlin recompiles in 
 the incremental compilation are backed up. Both full and precise backups help to run builds incrementally again 
@@ -200,7 +200,7 @@ When passing arguments, follow these rules:
 >
 > To overcome this, upgrade Gradle to the version 7.2 (or higher) or use the `kotlin.daemon.jvmargs` property – see the following section.
 >
-{type="warning"}
+{style="warning"}
 
 #### kotlin.daemon.jvmargs property
 
@@ -262,7 +262,7 @@ tasks.withType(CompileUsingKotlinDaemon::class).configureEach { task ->
 
 > In this case a new Kotlin daemon instance can start on task execution. Learn more about [Kotlin daemon's behavior with JVM arguments](#kotlin-daemon-s-behavior-with-jvm-arguments).
 >
-{type="note"}
+{style="note"}
 
 ### Kotlin daemon's behavior with JVM arguments
 
@@ -275,7 +275,7 @@ When configuring the Kotlin daemon's JVM arguments, note that:
   > If you are already running a Kotlin daemon that has enough heap size to handle the compilation request,
   > even if other requested JVM arguments are different, this daemon will be reused instead of starting a new one.
   >
-  {type="note"}
+  {style="note"}
 * If the `Xmx` argument is not specified, the Kotlin daemon will inherit it from the Gradle daemon.
 
 ## The new Kotlin compiler
@@ -423,7 +423,7 @@ If there is insufficient memory to run the compilation, you can see a message ab
 > Opt-in is required (see details below). Use them only for evaluation purposes. We appreciate your feedback on them
 > in [YouTrack](https://youtrack.jetbrains.com/issues/KT).
 >
-{type="warning"}
+{style="warning"}
 
 Build reports contain the durations of different compilation phases and any reasons why compilation couldn't be incremental.
 Use build reports to investigate performance issues when the compilation time is too long or when it differs for the same
@@ -525,7 +525,7 @@ your `gradle.properties`.
 
 > JetBrains doesn't collect these statistics. You choose a place [where to store your reports](#enabling-build-reports).
 > 
-{type="note"}
+{style="note"}
 
 ## What's next?
 

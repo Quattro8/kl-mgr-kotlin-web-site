@@ -7,7 +7,7 @@
 > Native platform libraries shipped with Kotlin/Native (like Foundation, UIKit, and POSIX),
 > require opt-in only for some APIs. In such cases, you get an IDE warning.
 >
-{type="warning"}
+{style="warning"}
 
 This document covers some aspects of Kotlin/Native interoperability with Swift/Objective-C: how you can use Kotlin
 declarations in Swift/Objective-C code and Objective-C declarations in Kotlin code.
@@ -36,7 +36,7 @@ Kotlin modules can be used in Swift/Objective-C code if compiled into a framewor
 
 > `@HiddenFromObjC` and `@ShouldRefineInSwift` annotations are [Experimental](components-stability.md#stability-levels-explained) and require [opt-in](opt-in-requirements.md).
 >
-{type="warning"}
+{style="warning"}
 
 If you don't want to export Kotlin declarations to Objective-C and Swift, use special annotations:
 
@@ -105,7 +105,7 @@ Kotlin releases. To work around this, you can rename the conflicting Kotlin clas
 
 > The `@ObjCName` annotation is [Experimental](components-stability.md#stability-levels-explained) and requires [opt-in](opt-in-requirements.md).
 >
-{type="warning"}
+{style="warning"}
 
 To avoid renaming Kotlin declarations, use the `@ObjCName` annotation. It instructs the Kotlin compiler to use
 a custom Objective-C and Swift name for classes, interfaces, and other Kotlin concepts:
@@ -254,7 +254,7 @@ switch color {
 > It may be dropped or changed at any time.
 > Use it only for evaluation purposes. We would appreciate your feedback on it in [YouTrack](https://youtrack.jetbrains.com/issue/KT-47610).
 >
-{type="warning"}
+{style="warning"}
 
 Kotlin's [suspending functions](coroutines-basics.md) (`suspend`) are presented in the generated Objective-C headers as
 functions with callbacks, or [completion handlers](https://developer.apple.com/documentation/swift/calling_objective-c_apis_asynchronously)
@@ -276,7 +276,7 @@ these declarations can't be overridden in Kotlin, and the extension initializers
 > in the same headers as the NSView class (from the AppKit framework) or UIView classes (from the UIKit framework) are
 > imported as members of these classes. This means that you can override methods that subclass from NSView or UIView.
 >
-{type="note"}
+{style="note"}
 
 Kotlin extensions to "regular" Kotlin classes are imported to Swift and Objective-C as extensions and category members,
 respectively. Kotlin extensions to other types are treated as [top-level declarations](#top-level-functions-and-properties)
@@ -325,7 +325,7 @@ MyClass.Companion.shared
 
 > Access objects through `[MySingleton mySingleton]` in Objective-C and `MySingleton()` in Swift has been deprecated.
 > 
-{type="note"}
+{style="note"}
 
 See more examples in the Kotlin-Swift interopedia:
 
@@ -516,7 +516,7 @@ annotation to the class.
 > Suppressing an error on clashing Kotlin signatures is a temporary workaround. Stability isn't guaranteed in this case so
 > use it with caution. We're working on fixing this behavior in future Kotlin releases.
 > 
-{type="warning"}
+{style="warning"}
 
 By default, the Kotlin/Native compiler doesn't allow calling a non-designated Objective-C initializer as a `super()`
 constructor. This behaviour can be inconvenient if the designated initializers aren't marked properly in the Objective-C
@@ -534,7 +534,7 @@ such as unsafe pointers, structs, and so on.
 > Opt-in is required (see the details below), and you should use it only for evaluation purposes.
 > We would appreciate your feedback on it in [YouTrack](https://youtrack.jetbrains.com/issue/KT-38600).
 >
-{type="warning"}
+{style="warning"}
 
 By default, [KDocs](kotlin-doc.md) documentation comments are not translated into corresponding comments when generating
 an Objective-C header. For example, the following Kotlin code with KDoc:

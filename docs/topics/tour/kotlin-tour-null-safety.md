@@ -60,7 +60,7 @@ fun main() {
 > `length` is a property of the [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/) class that 
 > contains the number of characters within a string.
 >
-{type="tip"}
+{style="tip"}
 
 ## Check for null values
 
@@ -109,7 +109,7 @@ fun main() {
 >   person.company?.address?.country
 > ```
 >
-{type="note"}
+{style="note"}
 
 The safe call operator can also be used to safely call an extension or member function. In this case, a null check is 
 performed before the function is called. If the check detects a `null` value, then the call is skipped and `null` is returned.

@@ -110,7 +110,7 @@ In a nutshell, you should to opt for cross-platform solutions if:
 
 > Share the logic of your iOS and Android apps. See [Kotlin Multiplatform](https://www.jetbrains.com/help/kotlin-multiplatform-dev/multiplatform-getting-started.html) in action.
 >
-{type="note"}
+{style="note"}
 
 ## When should you choose native app development?
 
