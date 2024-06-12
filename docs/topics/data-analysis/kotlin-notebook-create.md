@@ -1,13 +1,13 @@
 [//]: # (title: Create your first Kotlin Notebook)
 
-<microformat>
+<tldr>
    <p>This is the second part of the <strong>Getting started with Kotlin Notebook</strong> tutorial. Before proceeding, make sure you've completed the previous step.</p>
    <p><img src="icon-1-done.svg" width="20" alt="First step"/> <a href="kotlin-notebook-set-up-env.md">Set up an environment</a><br/>
       <img src="icon-2.svg" width="20" alt="Second step"/> <strong>Create a Kotlin Notebook</strong><br/>
       <img src="icon-3-todo.svg" width="20" alt="Third step"/> Add dependencies to a Kotlin Notebook<br/>      
       <img src="icon-4-todo.svg" width="20" alt="Fourth step"/> Share a Kotlin Notebook<br/>
   </p>
-</microformat>
+</tldr>
 
 Here, you will learn how to create your first Kotlin Notebook, perform simple operations, and run code cells. 
 
