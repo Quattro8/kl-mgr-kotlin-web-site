@@ -6,9 +6,13 @@
 		<website-title>%instance% Documentation</website-title>
 		<enable-browser-edits>true</enable-browser-edits>
 		<browser-edits-url>https://github.com/JetBrains/kotlin-web-site/edit/master/docs/</browser-edits-url>
-		<browser-edits-url-override for="coroutines-guide.md,coroutines-basics.md,coroutines-basic-jvm.md,cancellation-and-timeouts.md,composing-suspending-functions.md,coroutine-context-and-dispatchers.md,flow.md,channels.md,exception-handling.md,shared-mutable-state-and-concurrency.md,select-expression.md,debug-coroutines-with-idea.md,debug-flow-with-idea.md">
-            https://github.com/Kotlin/kotlinx.coroutines/edit/master/docs/topics/
-        </browser-edits-url-override>
+
+        <!--Enable contribution-->
+        <contribute-url instance="kc">https://github.com/Kotlin/kotlinx.coroutines/edit/master/docs/topics/</contribute-url>
+
+{#		<browser-edits-url-override for="coroutines-guide.md,coroutines-basics.md,coroutines-basic-jvm.md,cancellation-and-timeouts.md,composing-suspending-functions.md,coroutine-context-and-dispatchers.md,flow.md,channels.md,exception-handling.md,shared-mutable-state-and-concurrency.md,select-expression.md,debug-coroutines-with-idea.md,debug-flow-with-idea.md">#}
+{#            https://github.com/Kotlin/kotlinx.coroutines/edit/master/docs/topics/#}
+{#        </browser-edits-url-override>#}
 		<kotlin-latest-url>%kotlinLatestUrl%</kotlin-latest-url>
 		<product-web-url>%kotlinLatestUrl%</product-web-url>
 		<generate-only-default-anchors>true</generate-only-default-anchors>
