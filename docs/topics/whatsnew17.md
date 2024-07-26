@@ -1,8 +1,8 @@
 [//]: # (title: What's new in Kotlin 1.7.0)
 
-<microformat>
+<tldr>
    <p>The IDE support for Kotlin 1.7.0 is available for IntelliJ IDEA 2021.2, 2021.3, and 2022.1.</p>
-</microformat>
+</tldr>
 
 _[Released: 9 June 2022](releases.md#release-details)_
 

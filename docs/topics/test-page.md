@@ -1,14 +1,14 @@
 [//]: # (title: Testing page)
 [//]: # (description: This page is for testing purposes only.)
 
-<microformat>
+<tldr>
    <p>This is a microformat block with images (taken from <strong>Getting started with Compose Multiplatform</strong> tutorial).</p>
    <p><img src="icon-1-done.svg" width="20" alt="First step"/> <a href="jvm-create-project-with-spring-boot.md">Create a Spring Boot project with Kotlin</a><br/>
       <img src="icon-2-done.svg" width="20" alt="Second step"/> <a href="jvm-spring-boot-add-data-class.md">Add a data class to the Spring Boot project</a><br/>
       <img src="icon-3.svg" width="20" alt="Third step"/> <strong>Add database support for Spring Boot project</strong><br/>
       <img src="icon-4-todo.svg" width="20" alt="Fourth step"/> Use Spring Data CrudRepository for database access><br/>
     </p>
-</microformat>
+</tldr>
 
 ## Synchronized tabs
 
