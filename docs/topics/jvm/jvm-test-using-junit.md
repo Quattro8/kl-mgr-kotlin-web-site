@@ -12,7 +12,7 @@ To get started, first download and install the latest version of [IntelliJ IDEA]
 
    > Specify **JUnit 5** as your test framework when creating your project.
    >
-   {type="note"}
+   {style="note"}
 
 2. Open the `build.gradle(.kts)` file and add the following dependency to the Gradle configuration. This dependency will allow you to work with `kotlin.test` and `JUnit`:
 
@@ -64,7 +64,7 @@ To get started, first download and install the latest version of [IntelliJ IDEA]
 
    > If you created the project using the **New Project** wizard, the task will be added automatically.
    > 
-   {type="note"}
+   {style="note"}
 
 ## Add the code to test it
 
@@ -95,7 +95,7 @@ To get started, first download and install the latest version of [IntelliJ IDEA]
 
    > You can also manually create a `*.kt` file for tests in `src/test/kotlin`.
    >
-   {type="note"}
+   {style="note"}
 
 2. Add the test code for the `sum()` function in `SampleTest.kt`:
 
@@ -126,7 +126,7 @@ To get started, first download and install the latest version of [IntelliJ IDEA]
 
    > You can also run all project tests via the command-line interface using the `./gradlew check` command.
    >
-   {type="note"}
+   {style="note"}
 
 2. Check the result in the **Run** tool window:
 

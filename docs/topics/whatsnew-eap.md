@@ -7,7 +7,7 @@ _[Released: %kotlinEapReleaseDate%](eap.md#build-details)_
 >
 > See the full list of changes in the [GitHub changelog](https://github.com/JetBrains/kotlin/releases/tag/v%kotlinEapVersion%).
 >
-{type="note"}
+{style="note"}
 
 The Kotlin %kotlinEapVersion% release is out!
 Here are some details of this EAP release:
@@ -135,7 +135,7 @@ we recommend that you:
 
 > Your subproject must **not** be a multiplatform project, and you must only use it to set up a dependency on your multiplatform project.
 >
-{type="warning"}
+{style="warning"}
 
 For example, you have a multiplatform project called `my-main-project` and you want 
 to use the [Application](https://docs.gradle.org/current/userguide/application_plugin.html) Gradle plugin to run a JVM application.

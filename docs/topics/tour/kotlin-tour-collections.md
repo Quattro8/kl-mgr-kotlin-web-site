@@ -60,7 +60,7 @@ fun main() {
 > ```
 > This is also called **casting**.
 > 
-{type="tip"}
+{style="tip"}
 
 Lists are ordered so to access an item in a list, use the [indexed access operator](operator-overloading.md#indexed-access-operator) `[]`:
 
@@ -96,7 +96,7 @@ fun main() {
 > For more information about extension functions, see [Extension functions](extensions.md#extension-functions).
 > For the purposes of this tour, you only need to know how to call them. 
 > 
-{type="note"}
+{style="note"}
 
 To get the number of items in a list, use the [`.count()`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/count.html)
 function:
@@ -182,11 +182,11 @@ You can see in the previous example that because sets only contain unique elemen
 >     val fruitLocked: Set<String> = fruit
 > ```
 >
-{type="tip"}
+{style="tip"}
 
 > As sets are **unordered**, you can't access an item at a particular index.
 > 
-{type="note"}
+{style="note"}
 
 To get the number of items in a set, use the [`.count()`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/count.html)
 function:
@@ -241,7 +241,7 @@ without using a numbered index, like in a list.
 > * Every key in a map must be unique so that Kotlin can understand which value you want to get. 
 > * You can have duplicate values in a map.
 >
-{type="note"}
+{style="note"}
 
 To create a read-only map ([`Map`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-map/)), use the 
 [`mapOf()`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/map-of.html) function.
@@ -279,7 +279,7 @@ fun main() {
 >     val juiceMenuLocked: Map<String, Int> = juiceMenu
 > ```
 >
-{type="tip"}
+{style="tip"}
 
 To access a value in a map, use the [indexed access operator](operator-overloading.md#indexed-access-operator) `[]` with
 its key:
@@ -367,7 +367,7 @@ fun main() {
 > Properties are discussed in more detail in the [Classes](kotlin-tour-classes.md) chapter.
 > At this point in the tour, you only need to know how to access them.
 >
-{type="note"}
+{style="note"}
 
 To check that a key or value is in a map, use the [`in` operator](operator-overloading.md#in-operator):
 
@@ -391,7 +391,7 @@ that you can use in your programs.
 
 ## Practice
 
-### Exercise 1 {initial-collapse-state="collapsed"}
+### Exercise 1 {initial-collapse-state="collapsed" collapsible="true"}
 
 You have a list of “green” numbers and a list of “red” numbers. Complete the code to print how many numbers there
 are in total.
@@ -417,7 +417,7 @@ fun main() {
 ```
 {initial-collapse-state="collapsed" collapsed-title="Example solution" id="kotlin-tour-collections-solution-1"}
 
-### Exercise 2 {initial-collapse-state="collapsed"}
+### Exercise 2 {initial-collapse-state="collapsed" collapsible="true"}
 
 You have a set of protocols supported by your server. A user requests to use a particular protocol. Complete the program
 to check whether the requested protocol is supported or not (`isSupported` must be a Boolean value).
@@ -451,7 +451,7 @@ fun main() {
 ```
 {initial-collapse-state="collapsed" collapsed-title="Example solution" id="kotlin-tour-collections-solution-2"}
 
-### Exercise 3 {initial-collapse-state="collapsed"}
+### Exercise 3 {initial-collapse-state="collapsed" collapsible="true"}
 
 Define a map that relates integer numbers from 1 to 3 to their corresponding spelling. Use this map to spell the given 
 number.
