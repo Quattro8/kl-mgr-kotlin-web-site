@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<buildprofiles>
+<buildprofiles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/build-profiles.xsd">
+    <sitemap priority="0.35" change-frequency="monthly"/>
 	<variables>
+        <include-in-head>thirdparty/dpk-gtm-analytics.html</include-in-head>
+        <website-title>%instance% Documentation</website-title>
 		<enable-browser-edits>true</enable-browser-edits>
 		<browser-edits-url>https://github.com/JetBrains/kotlin-web-site/edit/master/docs/</browser-edits-url>
 		<browser-edits-url-override for="coroutines-guide.md,coroutines-basics.md,coroutines-basic-jvm.md,cancellation-and-timeouts.md,composing-suspending-functions.md,coroutine-context-and-dispatchers.md,flow.md,channels.md,exception-handling.md,shared-mutable-state-and-concurrency.md,select-expression.md,debug-coroutines-with-idea.md,debug-flow-with-idea.md">
