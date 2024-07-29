@@ -42,9 +42,9 @@ It requires changing the `MessageController` class to respond with a JSON docume
           <p>The <code>id</code> property of the <code>Message</code> class is declared as a nullable type this time.
           Hence, it is possible to create an instance of <code>Message</code> class by passing <code>null</code> as a value for <code>id</code>:
           </p>
-          <code style="block" lang="kotlin">
+          <code-block lang="kotlin">
           Message(null, "Hello!")
-          </code>
+          </code-block>
        </def>
    </deflist>
 2. In the same file, amend the `index()` function of a `MessageController` class to return a list of `Message` objects:
@@ -78,9 +78,9 @@ It requires changing the `MessageController` class to respond with a JSON docume
        </def>
        <def title="Trailing comma">
           <p>A <a href="coding-conventions.md#trailing-commas">trailing comma</a> is a comma symbol after the <b>last item</b> of a series of elements:
-            <code style="block" lang="kotlin">
+            <code-block lang="kotlin">
             Message("3", "Privet!"),
-            </code>
+            </code-block>
           This is a convenient feature of Kotlin syntax and is entirely optional – your code will still work without them.
           </p>
           <p>In the example above, creating a list of <code>Message</code> objects includes the trailing comma after the last <code>listOf()</code> function argument.</p>
@@ -93,7 +93,7 @@ The response from `MessageController` will now be a JSON document containing a c
 > As you [specified the `spring-boot-starter-web` dependency in the `build.gradle.kts` file](jvm-create-project-with-spring-boot.md#explore-the-project-gradle-build-file), you received Jackson as a _transitive_ dependency.
 > Hence, the application responds with a JSON document if the endpoint returns a data structure that can be serialized to JSON.
 >
-{type="note"}
+{style="note"}
 
 Here is a complete code of the `DemoApplication.kt`:
 
@@ -125,7 +125,7 @@ class MessageController {
 
 data class Message(val id: String?, val text: String)
 ```
-{initial-collapse-state="collapsed"}
+{initial-collapse-state="collapsed" collapsible="true"}
 
 ## Run the application
 

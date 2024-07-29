@@ -34,7 +34,7 @@ In Kotlin:
 > If a function doesn't return anything useful, the return type and `return` keyword can be omitted. Learn more about
 > this in [Functions without return](#functions-without-return).
 >
-{type="note"}
+{style="note"}
 
 In the following example:
 * `x` and `y` are function parameters.
@@ -57,7 +57,7 @@ fun main() {
 > We recommend in our [coding conventions](coding-conventions.md#function-names) that you name functions starting with 
 > a lowercase letter and use camel case with no underscores.
 > 
-{type="note"}
+{style="note"}
 
 ## Named arguments
 
@@ -68,7 +68,7 @@ you can write the parameters in any order.
 > In the following example, [string templates](strings.md#string-templates) (`$`) are used to access
 > the parameter values, convert them to `String` type, and then concatenate them into a string for printing.
 > 
-{type="tip"}
+{style="tip"}
 
 ```kotlin
 fun printMessageWithPrefix(message: String, prefix: String) {
@@ -111,7 +111,7 @@ fun main() {
 > You can skip specific parameters with default values, rather than omitting them all. However, after the 
 > first skipped parameter, you must name all subsequent parameters.
 >
-{type="note"}
+{style="note"}
 
 ## Functions without return
 
@@ -164,7 +164,7 @@ fun main() {
 > Omitting the return type is only possible when your function has no body (`{}`). Unless your function's return type
 > is `Unit`.
 > 
-{type="note"}
+{style="note"}
 
 ## Functions practice
 
@@ -314,7 +314,7 @@ function called on `text`.
 > { println("Log message") }
 > ```
 >
-{type="note"}
+{style="note"}
 
 Lambda expressions can be used in a number of ways. You can:
 * [assign a lambda to a variable that you can then invoke later](#assign-to-variable)
@@ -424,7 +424,7 @@ If your lambda expression has no parameters then the parentheses `()` are left e
 > 
 > `val upperCaseString = { str -> str.uppercase() }`
 >
-{type="note"}
+{style="note"}
 
 ### Return from a function
 

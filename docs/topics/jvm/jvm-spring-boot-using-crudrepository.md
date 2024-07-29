@@ -19,7 +19,7 @@ First, you need to adjust the `Message` class for work with the `CrudRepository`
 
     > These annotations also require additional imports.
     >  
-    {type="note"}
+    {style="note"}
 
     ```kotlin
     import org.springframework.data.annotation.Id
@@ -147,7 +147,7 @@ class MessageService(val db: MessageRepository) {
         if (isPresent) listOf(get()) else emptyList()
 }
 ```
-{initial-collapse-state="collapsed"}
+{initial-collapse-state="collapsed" collapsible="true"}
 
 ## Run the application
 
